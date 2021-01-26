@@ -4,5 +4,6 @@ function firstDuplicateValue(array) {
         if (array[absValue - 1] < 0) return absValue;
         array[absValue - 1] *= -1;
     }
+    
     return -1;
 }
